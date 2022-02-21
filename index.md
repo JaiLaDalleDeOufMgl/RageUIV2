@@ -83,6 +83,41 @@ Separator
 RageUI.Separator('Text')
 ```
 
+Slider
+
+```lua
+local progressmin = 0
+local progressmax = 100
+
+RageUI.Slider('Slider', progressmin, progressmax, nil, 50, {}, true, {})
+```
+
+UISliderHeritage
+
+```lua
+local sliderheritage = 1
+
+RageUI.UISliderHeritage('SliderHeritage', sliderheritage, nil, {}, 1)
+```
+
+BoutonPanel
+
+```lua
+RageUI.BoutonPanel('Gauche', 'Droite', 1)
+```
+
+StatisticPanel
+
+```lua
+RageUI.StatisticPanel(0.5, 'StatisticPanel', 1)
+```
+
+StatisticPanelAdvanced
+
+```lua
+RageUI.StatisticPanelAdvanced('StatisticPanelAdvanced', 0.5, nil, 0.5, nil, nil, 1)
+```
+
 Keys Register
 
 ```lua
