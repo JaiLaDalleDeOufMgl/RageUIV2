@@ -24,7 +24,7 @@ client_scripts {
 }
 ```
 
-#Menu
+# Menu
 
 ```lua
 local Menu = RageUI.CreateMenu('Titre', 'Sous Titre')
