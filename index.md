@@ -1,8 +1,6 @@
 
 ## Documentation RageUI
 
-### fxmanifest.lua
-
 Exemple de fxmanifest.lua
 
 ```lua
