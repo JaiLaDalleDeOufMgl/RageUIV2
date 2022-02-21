@@ -1,7 +1,7 @@
 
 ## Documentation RageUI
 
-Exemple de fxmanifest.lua
+fxmanifest.lua
 
 ```lua
 fx_version 'adamant'
