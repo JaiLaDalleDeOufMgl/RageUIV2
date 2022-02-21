@@ -1,7 +1,7 @@
 
 ## Documentation RageUI
 
-fxmanifest.lua
+Exemple de fxmanifest.lua
 
 ```lua
 fx_version 'adamant'
@@ -21,3 +21,16 @@ client_scripts {
  "RageUI/menu/windows/*.lua",
 }
 ```
+
+Crée un Menu
+
+```lua
+local Menu = RageUI.CreateMenu('Titre', 'Sous Titre')
+```
+
+Crée un SubMenu
+
+```lua
+local SubMenu = RageUI.CreateSubMenu(Menu, 'Titre', 'Sous Titre')
+```
+
