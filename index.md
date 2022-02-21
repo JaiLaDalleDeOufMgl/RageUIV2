@@ -3,7 +3,7 @@
 
 ## La documentation n'est pas terminée elle sera souvent à jour hésiter pas à Star le repo pour être au courant des mises à jour
 
-Exemple de fxmanifest.lua
+#Exemple de fxmanifest.lua
 
 ```lua
 fx_version 'adamant'
@@ -24,19 +24,19 @@ client_scripts {
 }
 ```
 
-Menu
+#Menu
 
 ```lua
 local Menu = RageUI.CreateMenu('Titre', 'Sous Titre')
 ```
 
-SubMenu
+#SubMenu
 
 ```lua
 local SubMenu = RageUI.CreateSubMenu(Menu, 'Titre', 'Sous Titre')
 ```
 
-Bouton
+#Bouton
 
 ```lua
 RageUI.Button("Text", 'Description', {},true, {
@@ -46,7 +46,7 @@ RageUI.Button("Text", 'Description', {},true, {
 })
 ```
 
-CheckBox
+#CheckBox
 
 ```lua
 local checkbox = false
@@ -64,7 +64,7 @@ RageUI.Checkbox("Checkbox", nil, checkbox, {}, {
 })
 ```
 
-List
+#List
 
 ```lua
 local list = 1
@@ -79,13 +79,13 @@ RageUI.List("List",{"1","2"},list,nil,{},true,{
 })
 ```
 
-Separator
+#Separator
 
 ```lua
 RageUI.Separator('Text')
 ```
 
-Slider
+#Slider
 
 ```lua
 local progressmin = 0
@@ -94,7 +94,7 @@ local progressmax = 100
 RageUI.Slider('Slider', progressmin, progressmax, nil, 50, {}, true, {})
 ```
 
-UISliderHeritage
+#UISliderHeritage
 
 ```lua
 local sliderheritage = 1
@@ -102,25 +102,25 @@ local sliderheritage = 1
 RageUI.UISliderHeritage('SliderHeritage', sliderheritage, nil, {}, 1)
 ```
 
-BoutonPanel
+#BoutonPanel
 
 ```lua
 RageUI.BoutonPanel('Gauche', 'Droite', 1)
 ```
 
-StatisticPanel
+#StatisticPanel
 
 ```lua
 RageUI.StatisticPanel(0.5, 'StatisticPanel', 1)
 ```
 
-StatisticPanelAdvanced
+#StatisticPanelAdvanced
 
 ```lua
 RageUI.StatisticPanelAdvanced('StatisticPanelAdvanced', 0.5, nil, 0.5, nil, nil, 1)
 ```
 
-Keys Register
+#Keys Register
 
 ```lua
 Keys.Register("E", "E", "Exemple", function()
