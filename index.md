@@ -22,15 +22,25 @@ client_scripts {
 }
 ```
 
-Crée un Menu
+Menu
 
 ```lua
 local Menu = RageUI.CreateMenu('Titre', 'Sous Titre')
 ```
 
-Crée un SubMenu
+SubMenu
 
 ```lua
 local SubMenu = RageUI.CreateSubMenu(Menu, 'Titre', 'Sous Titre')
+```
+
+Bouton
+
+```lua
+RageUI.Button("Text", 'Description', {},true, {
+    onSelected = function()
+      print('Bouton')
+    end
+})
 ```
 
