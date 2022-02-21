@@ -41,7 +41,7 @@ local SubMenu = RageUI.CreateSubMenu(Menu, 'Titre', 'Sous Titre')
 ```lua
 RageUI.Button("Text", 'Description', {},true, {
     onSelected = function()
-      print('Bouton')
+    -- function / Trigger
     end
 })
 ```
