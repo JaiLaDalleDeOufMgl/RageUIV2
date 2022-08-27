@@ -108,6 +108,23 @@ RageUI.UISliderHeritage('SliderHeritage', sliderheritage, nil, {}, 1)
 RageUI.BoutonPanel('Gauche', 'Droite', 1)
 ```
 
+
+# ColorPanel
+
+```lua
+local PanelIndex = 1
+local minimalIndexColor = 1
+local currentIndexColor = 1
+
+RageUI.ColourPanel("Couleur", RageUI.PanelColour.HairCut, minimalIndexColor1, currentIndexColor1, {
+    onColorChange = function(MinimumIndex, CurrentIndex)
+        minimalIndexColor = MinimumIndex
+        currentIndexColor = CurrentIndex
+    end,
+}, PanelIndex, {})
+
+```
+
 # StatisticPanel
 
 ```lua
